@@ -50,7 +50,6 @@ const Rect = styled.div`
 		}
 	}
 `;
-
 const AnimatedShapes = () => {
 	return (
 		<>
