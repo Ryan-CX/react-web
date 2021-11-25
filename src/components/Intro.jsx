@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Women from '../img/women.jpg';
+import AnimatedShapes from './AnimatedShapes';
+
 const Container = styled.div`
 	height: calc(100vh - 50px);
 	display: flex;
@@ -58,7 +60,6 @@ const Text = styled.span`
 `;
 
 const Image = styled.img`
-	width: 100%;
 	height: 100%;
 `;
 
@@ -83,6 +84,7 @@ const Intro = () => {
 			<Right>
 				<Image src={Women}></Image>
 			</Right>
+			<AnimatedShapes />
 		</Container>
 	);
 };
